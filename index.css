@@ -1,0 +1,34 @@
+ul {
+  background-color: lightgray;
+  display: inline-block;
+}
+h1, h2, h3 {
+  text-align: center;
+}
+h2 { 
+  color: green;
+}
+h3 {
+  color: orange;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 50%;
+   /* got this from W3 Schools  */
+
+  padding: 25px;
+}
+section {
+  padding: 25px;
+  text-align: center;
+  
+  
+}
+ul {
+  list-style: "🍗";
+  margin: 5px;
+  padding: 25px;
+  
+}
