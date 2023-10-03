@@ -1,21 +1,30 @@
 ul {
   background-color: lightgray;
   display: inline-block;
+  list-style: "🍗";
+  margin: 5px;
+  padding: 25px;
 }
+h1 {
+  background-color: darkolivegreen;
+}
+
 h1, h2, h3 {
   text-align: center;
 }
 h2 { 
   color: green;
+  text-decoration: underline;
 }
 h3 {
-  color: orange;
+  color: darkorange;
+  text-decoration: underline;
 }
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 50%;
+  width: 50%;
    /* got this from W3 Schools  */
 
   padding: 25px;
@@ -23,12 +32,21 @@ img {
 section {
   padding: 25px;
   text-align: center;
-  
-  
+  border: 25px;
 }
-ul {
-  list-style: "🍗";
-  margin: 5px;
+div {
   padding: 25px;
-  
+  text-align: center;
+  border: 25px;
+}
+body {
+  background-color: burlywood;
+}
+footer {
+  background-color:yellow
+
+}
+ol {
+  text-align: left;
+  list-style: upper-roman;
 }
